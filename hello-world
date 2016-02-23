@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: สวัสดีชาว Go</title>
+    <title>Go by Example: Hello World</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
@@ -19,7 +19,7 @@
   </script>
   <body>
     <div class="example" id="hello-world">
-      <h2><a href="./">Go by Example</a>: สวัสดีชาว Go</h2>
+      <h2><a href="./">Go by Example</a>: Hello World</h2>
       
       <table>
         
@@ -117,7 +117,7 @@
         <tr>
           <td class="docs">
             <p>โดยในตอนนี้ เราสามารถทำการ run และ build
-โปรแกรมที่พัฒนาด้วยภาษา Go ไดเแล้ว <br/>
+โปรแกรมที่พัฒนาด้วยภาษา Go ได้แล้ว <br/><br/>
 ดังนั้น มาเริ่มเรียนรู้ความสามารถอื่น ๆ กัน</p>
 
           </td>
@@ -131,7 +131,7 @@
       
       
       <p class="next">
-        Next example: <a href="values">ชนิดข้อมูล</a>
+        Next example: <a href="values">Values</a>.
       </p>
       
       <p class="footer">
