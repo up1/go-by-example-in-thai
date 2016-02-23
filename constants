@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Constants</title>
+    <title>Go by Example: ค่าคงที่</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
@@ -19,14 +19,14 @@
   </script>
   <body>
     <div class="example" id="constants">
-      <h2><a href="./">Go by Example</a>: Constants</h2>
+      <h2><a href="./">Go by Example</a>: ค่าคงที่</h2>
       
       <table>
         
         <tr>
           <td class="docs">
-            <p>Go supports <em>constants</em> of character, string, boolean,
-and numeric values.</p>
+            <p>ในภาษา Go นั้นสนับสนุนเรื่องของค่าคงที่<br/>
+ซึ่งค่าคงที่ประกอบไปด้วย character, string, boolean และตัวเลข</p>
 
           </td>
           <td class="code empty leading">
@@ -40,7 +40,7 @@ and numeric values.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/T5sj0eINnp"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/5x-7r6RI2_"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -62,7 +62,7 @@ and numeric values.</p>
         
         <tr>
           <td class="docs">
-            <p><code>const</code> declares a constant value.</p>
+            <p>สามารถประกาศค่าคงที่ด้วย <code>const</code></p>
 
           </td>
           <td class="code leading">
@@ -88,8 +88,7 @@ and numeric values.</p>
         
         <tr>
           <td class="docs">
-            <p>A <code>const</code> statement can appear anywhere a <code>var</code>
-statement can.</p>
+            <p>โดยจะมีรูปแบบการใช้งานเหมือนกับ <code>var</code></p>
 
           </td>
           <td class="code leading">
@@ -102,8 +101,7 @@ statement can.</p>
         
         <tr>
           <td class="docs">
-            <p>Constant expressions perform arithmetic with
-arbitrary precision.</p>
+            <p>สามารถใช้งาน operation ต่าง ๆ ทางคณิตศาสตร์ได้</p>
 
           </td>
           <td class="code leading">
@@ -117,8 +115,7 @@ arbitrary precision.</p>
         
         <tr>
           <td class="docs">
-            <p>A numeric constant has no type until it&rsquo;s given
-one, such as by an explicit cast.</p>
+            <p>โดยที่ค่าคงที่จะไม่มีชนิดของข้อมูลไปจนกว่า จะถูก cast type</p>
 
           </td>
           <td class="code leading">
@@ -131,10 +128,9 @@ one, such as by an explicit cast.</p>
         
         <tr>
           <td class="docs">
-            <p>A number can be given a type by using it in a
-context that requires one, such as a variable
-assignment or function call. For example, here
-<code>math.Sin</code> expects a <code>float64</code>.</p>
+            <p>ค่าคงที่ที่มีข้อมูลเป็นตัวเลข
+จะทำการกำหนดชนิดข้อมูลที่เหมาะสมให้</br>
+ตัวอย่างเช่นการใช้งาน <code>math.Sin</code> จะกำหนดชนิดข้อมูลเป็น <code>float64</code> ให้</p>
 
           </td>
           <td class="code">
@@ -170,7 +166,7 @@ assignment or function call. For example, here
       
       
       <p class="next">
-        Next example: <a href="for">For</a>.
+        Next example: <a href="for">การใช้งานลูบ For</a>
       </p>
       
       <p class="footer">
