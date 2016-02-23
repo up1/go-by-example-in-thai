@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Values</title>
+    <title>Go by Example: ชนิดข้อมูล</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
@@ -19,15 +19,15 @@
   </script>
   <body>
     <div class="example" id="values">
-      <h2><a href="./">Go by Example</a>: Values</h2>
+      <h2><a href="./">Go by Example</a>: ชนิดข้อมูล</h2>
       
       <table>
         
         <tr>
           <td class="docs">
-            <p>Go has various value types including strings,
-integers, floats, booleans, etc. Here are a few
-basic examples.</p>
+            <p>ในภาษา Go นั้นมีชนิดตัวแปรจำนวนมาก</br>
+ไม่ว่าจะเป็น string, integer, float, boolean</br>
+มาดูตัวอย่างการใช้งานแบบเล็ก ๆ กัน</p>
 
           </td>
           <td class="code empty leading">
@@ -41,7 +41,7 @@ basic examples.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/fgGVOyuZdu"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/u8MnsgTw1H"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -74,7 +74,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Strings, which can be added together with <code>+</code>.</p>
+            <p>Strings, ทำการเชื่อมต่อข้อมูลด้วย <code>+</code></p>
 
           </td>
           <td class="code leading">
@@ -87,7 +87,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Integers and floats.</p>
+            <p>Integers และ floats</p>
 
           </td>
           <td class="code leading">
@@ -101,7 +101,7 @@ basic examples.</p>
         
         <tr>
           <td class="docs">
-            <p>Booleans, with boolean operators as you&rsquo;d expect.</p>
+            <p>Booleans, สามารถใช้งาน operator ต่าง ๆ เหล่านี้ได้เลย</p>
 
           </td>
           <td class="code">
@@ -141,7 +141,7 @@ basic examples.</p>
       
       
       <p class="next">
-        Next example: <a href="variables">Variables</a>.
+        Next example: <a href="variables">ตัวแปร</a>
       </p>
       
       <p class="footer">
