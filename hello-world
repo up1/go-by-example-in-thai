@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Hello World</title>
+    <title>Go by Example: สวัสดีชาว Go</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
@@ -19,7 +19,7 @@
   </script>
   <body>
     <div class="example" id="hello-world">
-      <h2><a href="./">Go by Example</a>: Hello World</h2>
+      <h2><a href="./">Go by Example</a>: สวัสดีชาว Go</h2>
       
       <table>
         
@@ -131,7 +131,7 @@
       
       
       <p class="next">
-        Next example: <a href="values">Values</a>.
+        Next example: <a href="values">ชนิดข้อมูล</a>
       </p>
       
       <p class="footer">
