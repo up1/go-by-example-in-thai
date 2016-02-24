@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: If/Else</title>
+    <title>Go by Example: การตรวจสอบเงื่อนไขด้วย If/Else</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
@@ -19,14 +19,13 @@
   </script>
   <body>
     <div class="example" id="if-else">
-      <h2><a href="./">Go by Example</a>: If/Else</h2>
+      <h2><a href="./">Go by Example</a>: การตรวจสอบเงื่อนไขด้วย If/Else</h2>
       
       <table>
         
         <tr>
           <td class="docs">
-            <p>Branching with <code>if</code> and <code>else</code> in Go is
-straight-forward.</p>
+            <p>การตรวจสอบเงื่อนไขด้วย <code>if</code> และ <code>else</code> เป็นสิ่งที่ง่ายมาก</p>
 
           </td>
           <td class="code empty leading">
@@ -40,7 +39,7 @@ straight-forward.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/g-aqMz0Ivf"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/2CvMohgTkQ"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -73,7 +72,7 @@ straight-forward.</p>
         
         <tr>
           <td class="docs">
-            <p>Here&rsquo;s a basic example.</p>
+            <p>ตัวอย่างการใช้งานขั้นพื้นฐาน</p>
 
           </td>
           <td class="code leading">
@@ -90,7 +89,7 @@ straight-forward.</p>
         
         <tr>
           <td class="docs">
-            <p>You can have an <code>if</code> statement without an else.</p>
+            <p>สามารถมีคำสั่ง <code>if</code> โดยไม่ต้องมี <code>else</code> ได้</p>
 
           </td>
           <td class="code leading">
@@ -105,9 +104,8 @@ straight-forward.</p>
         
         <tr>
           <td class="docs">
-            <p>A statement can precede conditionals; any variables
-declared in this statement are available in all
-branches.</p>
+            <p>ในแต่ละ statement สามารถทำการประกาศและกำหนดค่าให้ตัวแปร
+รวมทั้งทำการตรวจสอบเงื่อนไขได้ด้วย</p>
 
           </td>
           <td class="code leading">
@@ -127,8 +125,9 @@ branches.</p>
         
         <tr>
           <td class="docs">
-            <p>Note that you don&rsquo;t need parentheses around conditions
-in Go, but that the braces are required.</p>
+            <p>ในภาษา Go นั้น <br/>
+จะเห็นได้ว่าในเงื่อนไขไม่มีการครอบด้วยวงเล็บ<br/>
+แต่ต้องมีปีกกาเปิดและปิดเสมอนะ</p>
 
           </td>
           <td class="code empty">
@@ -158,9 +157,8 @@ in Go, but that the braces are required.</p>
         
         <tr>
           <td class="docs">
-            <p>There is no <a href="http://en.wikipedia.org/wiki/%3F:">ternary if</a>
-in Go, so you&rsquo;ll need to use a full <code>if</code> statement even
-for basic conditions.</p>
+            <p>คำสั่ง <code>if</code> ในภาษา Go ไม่มี <a href="http://en.wikipedia.org/wiki/%3F:">ternary if</a>
+หรือ <code>if</code> แบบสั้น ๆ</p>
 
           </td>
           <td class="code empty">
@@ -173,7 +171,7 @@ for basic conditions.</p>
       
       
       <p class="next">
-        Next example: <a href="switch">Switch</a>.
+        Next example: <a href="switch">การใช้งาน Switch</a>
       </p>
       
       <p class="footer">
