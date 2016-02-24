@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: For</title>
+    <title>Go by Example: การใช้งานลูป For</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
@@ -19,14 +19,14 @@
   </script>
   <body>
     <div class="example" id="for">
-      <h2><a href="./">Go by Example</a>: For</h2>
+      <h2><a href="./">Go by Example</a>: การใช้งานลูป For</h2>
       
       <table>
         
         <tr>
           <td class="docs">
-            <p><code>for</code> is Go&rsquo;s only looping construct. Here are
-three basic types of <code>for</code> loops.</p>
+            <p>การวนลูบในภาษา Go มีเพียงการใช้ <code>for</code> เท่านั้น<br/>
+มาดูตัวอย่างการใช้งานขั้นพื้นฐาน 3 รูปแบบกัน</p>
 
           </td>
           <td class="code empty leading">
@@ -40,7 +40,7 @@ three basic types of <code>for</code> loops.</p>
             
           </td>
           <td class="code leading">
-	        <a href="http://play.golang.org/p/mGqqcBZ0jv"><img title="Run code" src="play.png" class="run" /></a>
+	        <a href="http://play.golang.org/p/ovEOqMs8Tk"><img title="Run code" src="play.png" class="run" /></a>
             <div class="highlight"><pre><span class="kn">package</span> <span class="nx">main</span>
 </pre></div>
 
@@ -73,7 +73,7 @@ three basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p>The most basic type, with a single condition.</p>
+            <p>การใช้งานส่วนใหญ่ ทำการตรวจสอบเพียงเงื่อนไขเดียว</p>
 
           </td>
           <td class="code leading">
@@ -90,7 +90,7 @@ three basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p>A classic initial/condition/after <code>for</code> loop.</p>
+            <p>กำหนดค่าเริ่มต้น เงื่อนไข และการเพิ่มค่าหลังจากทำงานเสร็จในแต่ละรอบ</p>
 
           </td>
           <td class="code leading">
@@ -105,10 +105,19 @@ three basic types of <code>for</code> loops.</p>
         
         <tr>
           <td class="docs">
-            <p><code>for</code> without a condition will loop repeatedly
-until you <code>break</code> out of the loop or <code>return</code> from
-the enclosing function.</p>
+            <p>ถ้าในลูบ <code>for</code> ไม่มีการตรวจสอบเงื่อนไข<br/>
+จะหยุดทำงานเมื่อเจอคำสั่ง <code>break</code> หรือ <code>return</code></p>
 
+          </td>
+          <td class="code empty leading">
+	        
+            
+          </td>
+        </tr>
+        
+        <tr>
+          <td class="docs">
+            
           </td>
           <td class="code">
 	        
@@ -147,9 +156,9 @@ the enclosing function.</p>
         
         <tr>
           <td class="docs">
-            <p>We&rsquo;ll see some other <code>for</code> forms later when we look at
-<code>range</code> statements, channels, and other data
-structures.</p>
+            <p>เราจะเห็นการทำงานเช่นเดียวกับลูป <code>for</code>
+ในรูปแบบอื่น ๆ อีก
+เช่น <code>range</code>, channels และ โครงสร้างข้อมูลอื่น ๆ</p>
 
           </td>
           <td class="code empty">
@@ -162,7 +171,7 @@ structures.</p>
       
       
       <p class="next">
-        Next example: <a href="if-else">If/Else</a>.
+        Next example: <a href="if-else">การตรวจสอบเงื่อนไขด้วย If/Else</a>
       </p>
       
       <p class="footer">
