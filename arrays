@@ -25,8 +25,7 @@
         
         <tr>
           <td class="docs">
-            <p>In Go, an <em>array</em> is a numbered sequence of elements of a
-specific length.</p>
+            <p>ในภาษาโก <em>อาเรย์</em> คือตัวเลขลำดับของส่วนประกอบที่มีความยาวคงที่</p>
 
           </td>
           <td class="code empty leading">
@@ -73,11 +72,7 @@ specific length.</p>
         
         <tr>
           <td class="docs">
-            <p>Here we create an array <code>a</code> that will hold exactly
-5 <code>int</code>s. The type of elements and length are both
-part of the array&rsquo;s type. By default an array is
-zero-valued, which for <code>int</code>s means <code>0</code>s.</p>
-
+            <p>เราสามารถสร้างอาเรย์ของจำนวนเต็มขนาด 5 ตัว ชื่อ <code>a</code> โดยที่ค่าเริ่มต้นของแต่ละส่วนประกอบในอาเรย์ชนิดจำนวนเต็มคือ <code>0</code></p>
           </td>
           <td class="code leading">
 	        
@@ -90,9 +85,7 @@ zero-valued, which for <code>int</code>s means <code>0</code>s.</p>
         
         <tr>
           <td class="docs">
-            <p>We can set a value at an index using the
-<code>array[index] = value</code> syntax, and get a value with
-<code>array[index]</code>.</p>
+            <p>เราสามารถใช้ index เพื่อเซ็ตค่าให้แต่ละส่วนประกอบในอาเรย์ได้โดยใช้รูปแบบ <code>array[index] = value</code>, และสามารถดึงค่ามาได้โดย <code>array[index]</code>.</p>
 
           </td>
           <td class="code leading">
@@ -107,7 +100,7 @@ zero-valued, which for <code>int</code>s means <code>0</code>s.</p>
         
         <tr>
           <td class="docs">
-            <p>The builtin <code>len</code> returns the length of an array.</p>
+            <p>เราสามารถใช้ <code>len</code> เพื่อตรวจสอบความยาวของอาเรย์</p>
 
           </td>
           <td class="code leading">
@@ -120,8 +113,7 @@ zero-valued, which for <code>int</code>s means <code>0</code>s.</p>
         
         <tr>
           <td class="docs">
-            <p>Use this syntax to declare and initialize an array
-in one line.</p>
+            <p>เราสามารถใช้รูปแบบดังกล่าวเพื่อประกาศและกำหนดค่าเริ่มต้นให้กับอาเรย์ได้ในหนึ่งบรรทัด.</p>
 
           </td>
           <td class="code leading">
@@ -135,9 +127,7 @@ in one line.</p>
         
         <tr>
           <td class="docs">
-            <p>Array types are one-dimensional, but you can
-compose types to build multi-dimensional data
-structures.</p>
+            <p>ชนิดของตัวแปรอาเรย์เป็นแบบหนึ่งมิติ แต่เราสามารถที่จะประกอบให้เป็นหลายๆ มิติได้เช่นกัน.</p>
 
           </td>
           <td class="code">
@@ -161,8 +151,7 @@ structures.</p>
         
         <tr>
           <td class="docs">
-            <p>Note that arrays appear in the form <code>[v1 v2 v3 ...]</code>
-when printed with <code>fmt.Println</code>.</p>
+            <p>โน็ต: ที่ console output จะพิมพ์ออกมาเป็น <code>[v1 v2 v3 ...]</code> เมื่อเราพิมพ์ด้วย <code>fmt.Println</code>.</p>
 
           </td>
           <td class="code leading">
@@ -181,8 +170,7 @@ when printed with <code>fmt.Println</code>.</p>
         
         <tr>
           <td class="docs">
-            <p>You&rsquo;ll see <em>slices</em> much more often than arrays in
-typical Go. We&rsquo;ll look at slices next.</p>
+            <p>ซึ่งโดยปกติในภาษาโก คุณจะเห็น <em>slices</em> มากกว่าการใช้อาเรย์ ดังนั้นในหัวข้อถัดไปเรามาดูเรื่อง slices กัน.</p>
 
           </td>
           <td class="code empty">
@@ -195,7 +183,7 @@ typical Go. We&rsquo;ll look at slices next.</p>
       
       
       <p class="next">
-        Next example: <a href="slices">Slices</a>.
+        ตัวอย่างถัดไป: <a href="slices">Slices</a>.
       </p>
       
       <p class="footer">
