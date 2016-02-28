@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Arrays</title>
+    <title>Go by Example: การใช้งาน Array</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
@@ -19,7 +19,7 @@
   </script>
   <body>
     <div class="example" id="arrays">
-      <h2><a href="./">Go by Example</a>: Arrays</h2>
+      <h2><a href="./">Go by Example</a>: การใช้งาน Array</h2>
       
       <table>
         
@@ -183,7 +183,7 @@
       
       
       <p class="next">
-        ตัวอย่างถัดไป: <a href="slices">Slices</a>.
+        ตัวอย่างถัดไป: <a href="slices">การใช้งาน Slice</a>
       </p>
       
       <p class="footer">
