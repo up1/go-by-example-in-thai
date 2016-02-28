@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Go by Example: Slices</title>
+    <title>Go by Example: การใช้งาน Slice</title>
     <link rel=stylesheet href="site.css">
   </head>
   <script type="text/javascript">
@@ -19,7 +19,7 @@
   </script>
   <body>
     <div class="example" id="slices">
-      <h2><a href="./">Go by Example</a>: Slices</h2>
+      <h2><a href="./">Go by Example</a>: การใช้งาน Slice</h2>
       
       <table>
         
@@ -303,7 +303,7 @@
       
       
       <p class="next">
-        Next example: <a href="maps">Maps</a>.
+        Next example: <a href="maps">การใช้งาน Map</a>
       </p>
       
       <p class="footer">
